@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        <h1> Formulário </h1>
+        <label id="nome" name="novoNome"> Nome: </label>
+        <input type="text" id="tNome" name="tNovoNome" placeholder="Informe seu nome: "/><br><br>
+        <label id="telefone" name="novoTelefone"> Telefone: </label>
+        <input type="text" id="tTelefone" name="tNovoTelefone" placeholder="Informe seu telefone: "/><br><br>
+        <label id="dataDeNascimento" name="novaDataDeNascimento"> Data de Nascimento: </label>
+        <input type="date" id="tDataDeNascimento" name="tNovaDataDeNascimento"/><br><br>
+        <button type="submit"> Cadastrar </button>
+    </form>
+    <h6> {{ resultado }}</h6>
+</body>
+</html>
